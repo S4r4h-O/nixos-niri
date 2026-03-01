@@ -12,5 +12,13 @@
 
     # Java
     # javaPackages.compiler.temurin-bin.jdk-21
+
+    # C
+    libgcc
+    rocmPackages.llvm.clang-unwrapped
+
+    # JS/TS
+    nodejs
+    bun
   ];
 }
