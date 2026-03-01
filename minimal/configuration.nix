@@ -107,6 +107,15 @@
   services.gnome.gnome-keyring.enable = true;
   security.pam.services.swaylock = { };
 
+  # Fonts
+  fonts.packages = with pkgs; [
+    noto-fonts-emoji
+    jetbrains-mono
+    nerd-fonts.jetbrains-mono
+    inter
+    adwaita-fonts
+  ];
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
